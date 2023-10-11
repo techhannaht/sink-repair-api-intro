@@ -1,0 +1,12 @@
+div {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    padding-bottom: 1%;
+    font-size: large;
+}
+
+.button {
+    background-color: rgb(188, 192, 255);
+}
+
