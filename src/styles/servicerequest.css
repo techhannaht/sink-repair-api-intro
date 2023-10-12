@@ -1,0 +1,21 @@
+body {
+max-width: 500px;
+  margin: auto;
+  background: rgb(198, 231, 255);
+  padding-top: 1%;
+}
+
+li {
+    list-style-type: none;
+    padding: .3%;
+}
+
+.serviceRequests {
+    width: 500px;
+    background-color:rgb(109, 213, 254);
+    border: 1px solid black;
+}
+
+section {
+    padding: 1%;
+}
