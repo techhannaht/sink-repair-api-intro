@@ -1,12 +1,11 @@
 div {
     display: flex;
     flex-direction: column;
-    width: 23%;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
     font-size: large;
 }
 
 .button {
-    background-color: rgb(188, 192, 255);
+    background-color: rgb(190, 195, 255);
 }
 

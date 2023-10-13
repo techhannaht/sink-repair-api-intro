@@ -9,7 +9,7 @@ export const Requests = () => {
 
     let html = `
 
-        <ul>  ${
+        <table>  ${
             requests.map(request => {
                 return `<li> ${request.description} 
                 <select class="plumbers" id="plumbers">
@@ -28,7 +28,7 @@ export const Requests = () => {
             }).join(" ")
         } 
         
-        </ul> `
+        </table> `
            
         
 
@@ -52,7 +52,7 @@ mainContainer.addEventListener(
         if (event.target.id === "plumbers") {
             
             const [requestId, plumberId,] = event.target.value.split("--")
-            const date_created = new Date()
+            const date_created = new Date
 
             const dataForCompletions = {
                 request: requestId,

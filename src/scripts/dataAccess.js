@@ -45,7 +45,6 @@ export const fetchCompletions = () => {
 }
 
 
-
 // export requests in application state to make data renderable to HTML
 export const getRequests = () => {
     return applicationState.requests.map(request => ({...request}))
